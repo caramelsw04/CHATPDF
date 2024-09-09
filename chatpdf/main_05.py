@@ -1,6 +1,4 @@
 # main_05 : pdf파일 읽기 + splitting + embedding + db 저장 + 챗봇 기능 추가+ web 서비스
-from dotenv import load_dotenv
-load_dotenv()
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
